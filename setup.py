@@ -2,8 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='hrnet-pose-estimation',
-    version='0.1.0',
-    packages=find_packages(include=['hrnet_pose', 'hrnet_pose.*']),
+    version='0.1.1',
+    packages=find_packages(),
+    include_package_data=True, # <-- adds data files to bdist
     install_requires=[
         'EasyDict==1.7',
         'shapely==1.6.4',
