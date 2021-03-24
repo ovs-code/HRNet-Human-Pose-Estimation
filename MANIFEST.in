@@ -1,0 +1,4 @@
+include *.txt
+include LICENSE
+recursive-include hrnet_pose *.yaml
+recursive-include hrnet_pose Makefile
