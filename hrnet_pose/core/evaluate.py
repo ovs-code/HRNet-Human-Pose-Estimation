@@ -10,7 +10,7 @@ from __future__ import print_function
 
 import numpy as np
 
-from core.inference import get_max_preds
+from ..core.inference import get_max_preds
 
 
 def calc_dists(preds, target, normalize):
@@ -69,5 +69,3 @@ def accuracy(output, target, hm_type='gaussian', thr=0.5):
     if cnt != 0:
         acc[0] = avg_acc
     return acc, avg_acc, cnt, pred
-
-

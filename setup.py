@@ -13,7 +13,8 @@ setup(
         'pyyaml',
         'json_tricks',
         'scikit-image',
-        'yacs>=0.1.5'
+        'yacs>=0.1.5',
+        'opencv-python'
     ],
     package_data={'experiments': ['*.yaml']}
 )
